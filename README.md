@@ -3,7 +3,7 @@ Author - Vikas K Singh
 A complete beginners guide to learn shell scripting from scratch. Basic scripts, functions, loops.
 
 
-File operators (tests)
+*File operators (tests)*
 
 Syntax:
 
@@ -22,7 +22,7 @@ Example:
 -e FILE true if file exists.
 -f FILE true if file exists and is a regular file.
 
-String operators (tests)
+*String operators (tests)*
 
 -z STR true   if STR is empty.
 -n STR true   if STR is not empty.
@@ -30,7 +30,7 @@ STR1 = STR2   true if the STRs are equal.
 STR1 != STR2  true if the STRs are not equal
 
 
-Arithmetic operators (tests)
+*Arithmetic operators (tests)*
 
 value1 –eq value2 True if value1 is equal to value2.
 value1 –ne value2 True if value1 is not equal to value2.

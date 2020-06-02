@@ -40,3 +40,30 @@ value1 –le value2 True if value1 is less than or equal to value2.
 
 value1 –gt value2 True if value1 is greater than value2.
 value1 –ge value2 True if value1 is greater than or equal to value2.
+
+
+*Positional Parameters*
+
+$ test.sh parameter1 parameter2 ... parameterN
+
+$0 : "test.sh"
+$1 : "parameter1"
+$2 : "parameter2"
+.
+.
+$N : "parameterN"
+
+
+*Semi colon usage*
+Separate commands with a semicolon to ensure they all get executed.
+mkdir hello ; touch hello.txt ; cp hello.txt hello/
+
+OR
+mkdir hello 
+touch hello.txt 
+cp hello.txt hello/
+
+
+
+
+

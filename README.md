@@ -63,6 +63,21 @@ mkdir hello
 touch hello.txt 
 cp hello.txt hello/
 
+**Wildcards**
+
+- *  Zero or more characters. 
+- ?  Exactly One character.  
+- [] character in the brackets.  
+- [!]   
+- [a-d]* all the files starts with a b c or d  
+- [[:alpha:]]  
+- [[:alnum:]]  
+- [[:digit:]]  
+- [[:lower:]]  
+- [[:space:]]  
+- [[:upper:]]  
+- \ - escape character.  when you want to match a wild card.  
+
 
 
 
